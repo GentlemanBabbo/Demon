@@ -73,7 +73,7 @@
 				</node>
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="292febcf-c6f0-46e7-9138-69f065e7b472" /> must be unique
-					<attribute id="Name" type="LSString" value="Abomination_Male_CyberDemon_Player" />
+					<attribute id="Name" type="LSString" value="Demon_Male_CyberDemon_Player" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="fbfa30be-17aa-44b8-81df-4da7ea7bc5ab" /> inherits from normal body Custom Race
