@@ -333,7 +333,7 @@
 						</node>
 						<node id="Slots">
 							<attribute id="Slot" type="FixedString" value="Head" />
-							<attribute id="VisualResource" type="FixedString" value="3baeaf60-1847-43c4-8f01-a2b13dc6344f" />
+							<attribute id="VisualResource" type="FixedString" value="5fdb820e-cece-4f2b-8e4e-ab38df76b84c" />
 						</node>
 						<node id="Slots">
 							<attribute id="Slot" type="FixedString" value="Hair" />
