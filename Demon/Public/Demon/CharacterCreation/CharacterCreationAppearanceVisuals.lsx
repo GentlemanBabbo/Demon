@@ -33,7 +33,7 @@
 				</node>
 
 		<!--Warbringer Heads-->
-				<node id="CharacterCreationAppearanceVisual"> CyberDemon - B
+				<node id="CharacterCreationAppearanceVisual"> Warbringer - A
 					<attribute id="BodyShape" type="uint8" value="0"/> <!--0 = Standard 1 = Tall Muscular -->
 					for Dragonborn and Half-Orcs even though they use Tall Muscular bodyshape this value needs to be 0
 					<attribute id="BodyType" type="uint8" value="0"/> <!--0 = Masc 1 = Fem -->
