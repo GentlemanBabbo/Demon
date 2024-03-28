@@ -31,6 +31,19 @@
 					<attribute id="VisualResource" type="guid" value="e1f7ee66-4365-4d33-b0b8-7edd25db101e"/>
 					<!--^ This UUID must match the one in the head merged.lsf or the custom name you give it-->
 				</node>
+				<node id="CharacterCreationAppearanceVisual"> CyberDemon - C
+					<attribute id="BodyShape" type="uint8" value="0"/> <!--0 = Standard 1 = Tall Muscular -->
+					for Dragonborn and Half-Orcs even though they use Tall Muscular bodyshape this value needs to be 0
+					<attribute id="BodyType" type="uint8" value="0"/> <!--0 = Masc 1 = Fem -->
+                			<attribute id="DisplayName" type="TranslatedString" handle="h55779bb1g844eg48a1gaa92g3e73909046b4" version="1"/> 
+					same as the handle in your Localization\English\custom_name_here.xml
+					<attribute id="RaceUUID" type="guid" value="153cba85-b9cd-46ac-a5cc-949ecb206d9d"/>
+					The UUID for the race you're making the head for. See below for a list.
+					<attribute id="SlotName" type="FixedString" value="Head"/>
+					<attribute id="UUID" type="guid" value="e10910f2-7633-4375-b6af-18047bff2133"/> <!--Unique UUID -->
+					<attribute id="VisualResource" type="guid" value="637c5343-67cd-4225-b691-a619602ea301"/>
+					<!--^ This UUID must match the one in the head merged.lsf or the custom name you give it-->
+				</node>
 
 		<!--Warbringer Heads-->
 				<node id="CharacterCreationAppearanceVisual"> Warbringer - A
