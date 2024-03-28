@@ -293,7 +293,7 @@
 				</node>
 				<node id="Resource">
 					<attribute id="BaseVisual" type="FixedString" value="ede06171-5559-4474-95b5-a2d6966b1dbf" />
-					<attribute id="BodySetVisual" type="FixedString" value="67429690-cf77-4f87-8d2b-7697e8107eac" />
+					<attribute id="BodySetVisual" type="FixedString" value="df3cdf98-ee7b-4f61-bf25-7aee12b0bb36" />
 					<attribute id="ID" type="FixedString" value="304967d3-549c-4445-af30-2194c6172a6e" />
 					<attribute id="Name" type="LSString" value="Main_Male_Warbringer_Player_Strong" />
 					<attribute id="ShowEquipmentVisuals" type="bool" value="True" />
