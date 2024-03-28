@@ -54,6 +54,16 @@
                   <attribute id="TableUUID" type="guid" value="2a31d2a4-c552-432d-b3f5-ce69ff65d3aa" /> Always use this one for races.lsx, says this progression node is for Sub Race
                   <attribute id="UUID" type="guid" value="172c593f-0adc-46d0-bf68-eb42fbdc8a4f" />  this one must be unique
           </node>
+        <node id="Progression">
+                  <attribute id="Level" type="uint8" value="1" /> which level the progression is for
+                  <attribute id="Name" type="LSString" value="Warbringer" /> just an internal name
+                  <attribute id="Boosts" type="LSString" value="" /> 
+                  <attribute id="PassivesAdded" type="LSString" value="" /> passives from stats folder here
+                  <attribute id="Selectors" type="LSString" value="" /> you can add spells here
+                  <attribute id="ProgressionType" type="uint8" value="2" /> 2 means race
+                  <attribute id="TableUUID" type="guid" value="3e694069-bb78-429f-a4a3-b0edf0f3b3ed" /> Always use this one for races.lsx, says this progression node is for Sub Race
+                  <attribute id="UUID" type="guid" value="5d4dc870-09bd-4c77-b3de-20f14da2bba6" />  this one must be unique
+          </node>
       </children>
     </node>
   </region>
