@@ -2519,7 +2519,7 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="891a71f8-e6dd-4c23-b938-8a0d84cc2be7" />
-							<attribute id="ObjectID" type="FixedString" value="DK_M_Head_B.4_HEL_MS_NKD_Head_E_Remap_Ears_Mesh.3" />
+							<attribute id="ObjectID" type="FixedString" value="DK_M_Head_B.4_AUTO_MS_NKD_Head_D_Mechaparts.3" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
@@ -2545,6 +2545,16 @@
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="07639d4e-3d9f-d321-0146-f0d975d6f33a" />
 							<attribute id="ObjectID" type="FixedString" value="DK_M_Head_B.9_Proxy_SPEC_A_Tongue_Mesh.8" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="26dd58c4-c073-1a74-1ae1-7b2018ebd900" />
+							<attribute id="ObjectID" type="FixedString" value="DK_M_Head_B.10_AUTO_MS_NKD_Head_D_Brain.8" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="840f4afc-eb73-9b0b-fb2d-23479e5cd75c" />
+							<attribute id="ObjectID" type="FixedString" value="DK_M_Head_B.11_AUTO_MS_NKD_Head_D_Glass.8" />
 						</node>
 					</children>
 				</node>
