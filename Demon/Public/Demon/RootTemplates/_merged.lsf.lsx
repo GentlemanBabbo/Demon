@@ -98,6 +98,60 @@
 						<node id="LocomotionParams" />
 					</children>
 				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="b58b3b5c-6b3b-454e-b37f-d627ab2c0806" /> must be unique
+					<attribute id="Name" type="LSString" value="Demon_Female_Warbringer_Player" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4c730170-35ee-423c-ae5f-3feb4a5fc049" /> inherits from normal CustomRace body
+					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="9604b4fd-15b8-4bdf-acda-58ef2d8186bd" /> which models to load
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Female_Strong" />
+					<attribute id="Race" type="guid" value="fd56fc1f-c5ea-4256-a73c-e8ff3a2af0ef" /> define race as Custom Race
+					<attribute id="Stats" type="FixedString" value="Playable_F_Demon" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="d3116e58-c55a-4853-a700-bee996207397" /> tag for stronk
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="36720dd9-12d6-4b11-ab00-9d6d8f7f6702" /> Custom Sub Race tag
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="94142070-3208-4f40-888a-3aa7e19b1360" /> must be unique
+					<attribute id="Name" type="LSString" value="Demon_Male_Warbringer_Player" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="fbfa30be-17aa-44b8-81df-4da7ea7bc5ab" /> inherits from normal body Custom Race
+					<attribute id="Icon" type="FixedString" value="dbe45e58-e009-91ae-91f1-e5311cbef090-_(Icon_Human_Male_Strong)" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="304967d3-549c-4445-af30-2194c6172a6e" /> which models to load
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Male_Strong" />
+					<attribute id="Race" type="guid" value="fd56fc1f-c5ea-4256-a73c-e8ff3a2af0ef" /> define race as Custom Race
+					<attribute id="Stats" type="FixedString" value="Playable_M_Demon" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="d3116e58-c55a-4853-a700-bee996207397" /> tag for stronk
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="36720dd9-12d6-4b11-ab00-9d6d8f7f6702" /> Custom Sub Race tag
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+					</children>
+				</node>
 			</children>
 		</node>
 	</region>
