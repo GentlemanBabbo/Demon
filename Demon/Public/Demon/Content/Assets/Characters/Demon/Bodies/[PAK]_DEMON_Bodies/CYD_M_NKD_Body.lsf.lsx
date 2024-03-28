@@ -957,29 +957,39 @@
 						<node id="Base" />
 						<node id="ClothProxyMapping" />
 						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" /> Torso
+							<attribute id="LOD" type="uint8" value="0" /> TorsoFlesh
 							<attribute id="MaterialID" type="FixedString" value="e633b7a1-dc5d-45b6-a7f7-1e6f13459413" />
-							<attribute id="ObjectID" type="FixedString" value="DK_M_Body.1_CYD_TORSO.0" />
+							<attribute id="ObjectID" type="FixedString" value="DK_M_Body.1_TorsoFlesh.0" />
 						</node>
 						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" /> Legs
+							<attribute id="LOD" type="uint8" value="0" /> TorsoMech
+							<attribute id="MaterialID" type="FixedString" value="e633b7a1-dc5d-45b6-a7f7-1e6f13459413" />
+							<attribute id="ObjectID" type="FixedString" value="DK_M_Body.2_TorsoPlates.1" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" /> LegsFlesh
 							<attribute id="MaterialID" type="FixedString" value="cee7bc4a-3533-4760-ad27-c5713134af4c" />
-							<attribute id="ObjectID" type="FixedString" value="DK_M_Body.2_CYD_LEGS.1" />
+							<attribute id="ObjectID" type="FixedString" value="DK_M_Body.3_LegsFlesh.2" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" /> LegsPlates
+							<attribute id="MaterialID" type="FixedString" value="cee7bc4a-3533-4760-ad27-c5713134af4c" />
+							<attribute id="ObjectID" type="FixedString" value="DK_M_Body.4_LegPlates.3" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" /> Arms
 							<attribute id="MaterialID" type="FixedString" value="2f57ef08-4afb-4e6d-8105-c35787848f27" />
-							<attribute id="ObjectID" type="FixedString" value="DK_M_Body.3_CYD_ARMS.2" />
+							<attribute id="ObjectID" type="FixedString" value="DK_M_Body.5_Arms.4" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" /> MechParts
 							<attribute id="MaterialID" type="FixedString" value="cf4de9b3-b988-41cd-bf3c-5bb416aa2c8b" />
-							<attribute id="ObjectID" type="FixedString" value="DK_M_Body.4_CYD_MECHARMS.3" />
+							<attribute id="ObjectID" type="FixedString" value="DK_M_Body.6_ArmPlates.5" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" /> Tubes
 							<attribute id="MaterialID" type="FixedString" value="502f4030-1418-4b98-93d1-fbf2c2ec1a3c" />
-							<attribute id="ObjectID" type="FixedString" value="DK_M_Body.5_CYD_TUBES.4" />
+							<attribute id="ObjectID" type="FixedString" value="DK_M_Body.7_Hoses.6" />
 						</node>
 					</children>
 				</node>
