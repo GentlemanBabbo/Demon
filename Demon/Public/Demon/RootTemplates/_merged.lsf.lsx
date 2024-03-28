@@ -11,7 +11,7 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="366faff6-1e72-45c8-8d03-4eeaee6444a4" /> base DGB reference
 					<attribute id="Icon" type="FixedString" value="24bcc44f-4168-1468-222a-b1bb6370e000-_(Icon_Elf_Female)" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="013feb0-273c-4569-b6ab-c1695fd7c434" /> which models to load
-					<attribute id="Race" type="guid" value="7cc31992-8c46-4bf7-bade-5bf54e42b7f7" /> define race as Custom Race
+					<attribute id="Race" type="guid" value="153cba85-b9cd-46ac-a5cc-949ecb206d9d" /> define race as Custom Race
 					<children>
 						<node id="Tags">
 							<children>
@@ -31,7 +31,7 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="97ad09df-c188-4e39-bfd0-91c95c6379c4" /> base DGB reference
 					<attribute id="Icon" type="FixedString" value="4c8affee-8495-7a94-6506-bf050e0e091a-_(Icon_Elf_Male)" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="1bc12177-2e29-43ed-bcc0-1274eb630520" /> which models to load
-					<attribute id="Race" type="guid" value="7cc31992-8c46-4bf7-bade-5bf54e42b7f7" /> define race as Custom Race
+					<attribute id="Race" type="guid" value="153cba85-b9cd-46ac-a5cc-949ecb206d9d" /> define race as Custom Race
 					<children>
 						<node id="Tags">
 							<children>
@@ -53,7 +53,7 @@
 					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="f3d1db73-00e9-427e-950c-3b64319a7c7c" /> which models to load
 					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Female_Strong" />
-					<attribute id="Race" type="guid" value="fd56fc1f-c5ea-4256-a73c-e8ff3a2af0ef" /> define race as Custom Race
+					<attribute id="Race" type="guid" value="05914a70-00cf-4942-824b-85214f8b61b2" /> define race as Custom Race
 					<attribute id="Stats" type="FixedString" value="Playable_F_Demon" />
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
 					<children>
@@ -80,7 +80,7 @@
 					<attribute id="Icon" type="FixedString" value="dbe45e58-e009-91ae-91f1-e5311cbef090-_(Icon_Human_Male_Strong)" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="c4e74b0b-adc4-4c64-9e82-5cc6ec2e1f31" /> which models to load
 					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Male_Strong" />
-					<attribute id="Race" type="guid" value="fd56fc1f-c5ea-4256-a73c-e8ff3a2af0ef" /> define race as Custom Race
+					<attribute id="Race" type="guid" value="05914a70-00cf-4942-824b-85214f8b61b2" /> define race as Custom Race
 					<attribute id="Stats" type="FixedString" value="Playable_M_Demon" />
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
 					<children>
@@ -107,7 +107,7 @@
 					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="9604b4fd-15b8-4bdf-acda-58ef2d8186bd" /> which models to load
 					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Female_Strong" />
-					<attribute id="Race" type="guid" value="fd56fc1f-c5ea-4256-a73c-e8ff3a2af0ef" /> define race as Custom Race
+					<attribute id="Race" type="guid" value="30122d21-678c-461c-8058-28ffff3ceea6" /> define race as Custom Race
 					<attribute id="Stats" type="FixedString" value="Playable_F_Demon" />
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
 					<children>
@@ -134,7 +134,7 @@
 					<attribute id="Icon" type="FixedString" value="dbe45e58-e009-91ae-91f1-e5311cbef090-_(Icon_Human_Male_Strong)" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="304967d3-549c-4445-af30-2194c6172a6e" /> which models to load
 					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Male_Strong" />
-					<attribute id="Race" type="guid" value="fd56fc1f-c5ea-4256-a73c-e8ff3a2af0ef" /> define race as Custom Race
+					<attribute id="Race" type="guid" value="30122d21-678c-461c-8058-28ffff3ceea6" /> define race as Custom Race
 					<attribute id="Stats" type="FixedString" value="Playable_M_Demon" />
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
 					<children>
