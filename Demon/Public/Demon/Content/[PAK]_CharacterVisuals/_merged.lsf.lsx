@@ -5,8 +5,8 @@
 		<node id="CharacterVisualBank">
 			<children>
 				<node id="Resource">
-					<attribute id="BaseVisual" type="FixedString" value="ede06171-5559-4474-95b5-a2d6966b1dbf" /> base animations
-					<attribute id="BodySetVisual" type="FixedString" value="72a5d634-9b08-429f-b61e-c725f66cdbe3" /> body model
+					<attribute id="BaseVisual" type="FixedString" value="a75fb725-497c-bc68-2b61-95922e747cf6" /> base animations
+					<attribute id="BodySetVisual" type="FixedString" value="67429690-cf77-4f87-8d2b-7697e8107eac" /> body model
 					<attribute id="ID" type="FixedString" value="7a242f4f-da49-4b17-8ba9-c24ed888ea0c" /> must be unique		
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Name" type="LSString" value="BASE_Main_Male_Demon" />	localised name
@@ -155,7 +155,7 @@
 					</children>
 				</node>
 				<node id="Resource">
-					<attribute id="BaseVisual" type="FixedString" value="ede06171-5559-4474-95b5-a2d6966b1dbf" />
+					<attribute id="BaseVisual" type="FixedString" value="a75fb725-497c-bc68-2b61-95922e747cf6" />
 					<attribute id="BodySetVisual" type="FixedString" value="67429690-cf77-4f87-8d2b-7697e8107eac" />
 					<attribute id="ID" type="FixedString" value="c4e74b0b-adc4-4c64-9e82-5cc6ec2e1f31" />
 					<attribute id="Name" type="LSString" value="Main_Male_CyberDemon_Player_Strong" />
@@ -216,7 +216,7 @@
 				</node>
 				<node id="Resource">
 					<attribute id="BaseVisual" type="FixedString" value="738d6807-26d2-58e3-3906-e7b19347a124" />
-					<attribute id="BodySetVisual" type="FixedString" value="edb26736-c3d5-72a7-b69a-16b5720ba664" />
+					<attribute id="BodySetVisual" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
 					<attribute id="ID" type="FixedString" value="9604b4fd-15b8-4bdf-acda-58ef2d8186bd" />
 					<attribute id="Name" type="LSString" value="Main_Female_Warbringer_Player_Strong" />
 					<attribute id="ShowEquipmentVisuals" type="bool" value="True" />
@@ -292,7 +292,7 @@
 					</children>
 				</node>
 				<node id="Resource">
-					<attribute id="BaseVisual" type="FixedString" value="ede06171-5559-4474-95b5-a2d6966b1dbf" />
+					<attribute id="BaseVisual" type="FixedString" value="a75fb725-497c-bc68-2b61-95922e747cf6" />
 					<attribute id="BodySetVisual" type="FixedString" value="df3cdf98-ee7b-4f61-bf25-7aee12b0bb36" />
 					<attribute id="ID" type="FixedString" value="304967d3-549c-4445-af30-2194c6172a6e" />
 					<attribute id="Name" type="LSString" value="Main_Male_Warbringer_Player_Strong" />
