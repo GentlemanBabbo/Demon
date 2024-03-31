@@ -75,6 +75,18 @@
 		<!--Hair -->
 		
 			<!--Male Hair-->
+
+		        <node id="CharacterCreationAppearanceVisual">Fiery Hair Slick Back M
+					<attribute id="BodyShape" type="uint8" value="0" /> <!--0 = Standard 1 = Tall Muscular -->
+					<attribute id="BodyType" type="uint8" value="0" /> <!--0 = Masc 1 = Fem -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h55779bb1g844eg48a1gaa92g3e73909046b4" version="1" />
+					<attribute id="IconIdOverride" type="FixedString" value=""/>															
+					<attribute id="RaceUUID" type="guid" value="153cba85-b9cd-46ac-a5cc-949ecb206d9d"/>
+					<attribute id="SlotName" type="FixedString" value="Hair" /> <!-- This defines that this asset is a hair -->
+					<attribute id="UUID" type="guid" value="67dbdf49-3617-4372-9e69-48a851a3ed10" /> <!-- must be unique -->
+					<attribute id="VisualResource" type="guid" value="0ee1b356-677a-4d87-aca8-6324c9289d81" />
+					<!-- Match the ID line in the Hair merged in this template it is Public\Autosnapping_Template\Content\Assets\Characters\[PAK]_Hair\_merged.lsf.lsx -->
+        		</node>
 			<!--Female Hair-->
 
 		
