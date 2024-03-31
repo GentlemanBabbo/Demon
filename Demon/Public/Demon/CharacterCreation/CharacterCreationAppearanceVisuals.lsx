@@ -76,7 +76,7 @@
 		
 			<!--Male Hair-->
 
-		        <node id="CharacterCreationAppearanceVisual">Fiery Hair Slick Back M
+		        <node id="CharacterCreationAppearanceVisual"> Metal Tubes 1
 					<attribute id="BodyShape" type="uint8" value="0" /> <!--0 = Standard 1 = Tall Muscular -->
 					<attribute id="BodyType" type="uint8" value="0" /> <!--0 = Masc 1 = Fem -->
 					<attribute id="DisplayName" type="TranslatedString" handle="h55779bb1g844eg48a1gaa92g3e73909046b4" version="1" />
