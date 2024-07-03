@@ -27,7 +27,7 @@
 											<attribute id="ForcePresetValues" type="bool" value="True" />
 											<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
 											<attribute id="MapKey" type="FixedString" value="02Skin Properties" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="ace8e94a-4ec0-45b3-6ff0-46a6a4a008ed" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="13b21142-24a0-4f2e-b794-29c3b4908f75" />
 										</node>
 									</children>
 								</node>
@@ -39,7 +39,7 @@
 						</node>
 						<node id="Slots">
 							<attribute id="Slot" type="FixedString" value="Hair" />
-							<attribute id="VisualResource" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+							<attribute id="VisualResource" type="FixedString" value="0ee1b356-677a-4d87-aca8-6324c9289d81" />
 						</node>
 					</children>
 				</node>
