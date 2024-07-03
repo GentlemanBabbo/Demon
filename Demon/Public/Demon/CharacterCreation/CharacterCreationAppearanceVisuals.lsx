@@ -18,59 +18,6 @@
 					<attribute id="VisualResource" type="guid" value="3baeaf60-1847-43c4-8f01-a2b13dc6344f"/>
 					<!--^ This UUID must match the one in the head merged.lsf or the custom name you give it-->
 				</node>
-				<node id="CharacterCreationAppearanceVisual"> CyberDemon - B
-					<attribute id="BodyShape" type="uint8" value="0"/> <!--0 = Standard 1 = Tall Muscular -->
-					for Dragonborn and Half-Orcs even though they use Tall Muscular bodyshape this value needs to be 0
-					<attribute id="BodyType" type="uint8" value="0"/> <!--0 = Masc 1 = Fem -->
-                			<attribute id="DisplayName" type="TranslatedString" handle="h55779bb1g844eg48a1gaa92g3e73909046b4" version="1"/> 
-					same as the handle in your Localization\English\custom_name_here.xml
-					<attribute id="RaceUUID" type="guid" value="153cba85-b9cd-46ac-a5cc-949ecb206d9d"/>
-					The UUID for the race you're making the head for. See below for a list.
-					<attribute id="SlotName" type="FixedString" value="Head"/>
-					<attribute id="UUID" type="guid" value="a1761c54-e145-4ec2-9028-a3cd730f2adb"/> <!--Unique UUID -->
-					<attribute id="VisualResource" type="guid" value="e1f7ee66-4365-4d33-b0b8-7edd25db101e"/>
-					<!--^ This UUID must match the one in the head merged.lsf or the custom name you give it-->
-				</node>
-				<node id="CharacterCreationAppearanceVisual"> CyberDemon - C
-					<attribute id="BodyShape" type="uint8" value="0"/> <!--0 = Standard 1 = Tall Muscular -->
-					for Dragonborn and Half-Orcs even though they use Tall Muscular bodyshape this value needs to be 0
-					<attribute id="BodyType" type="uint8" value="0"/> <!--0 = Masc 1 = Fem -->
-                			<attribute id="DisplayName" type="TranslatedString" handle="h55779bb1g844eg48a1gaa92g3e73909046b4" version="1"/> 
-					same as the handle in your Localization\English\custom_name_here.xml
-					<attribute id="RaceUUID" type="guid" value="153cba85-b9cd-46ac-a5cc-949ecb206d9d"/>
-					The UUID for the race you're making the head for. See below for a list.
-					<attribute id="SlotName" type="FixedString" value="Head"/>
-					<attribute id="UUID" type="guid" value="e10910f2-7633-4375-b6af-18047bff2133"/> <!--Unique UUID -->
-					<attribute id="VisualResource" type="guid" value="637c5343-67cd-4225-b691-a619602ea301"/>
-					<!--^ This UUID must match the one in the head merged.lsf or the custom name you give it-->
-				</node>
-				<node id="CharacterCreationAppearanceVisual"> CyberDemon - D
-					<attribute id="BodyShape" type="uint8" value="0"/> <!--0 = Standard 1 = Tall Muscular -->
-					for Dragonborn and Half-Orcs even though they use Tall Muscular bodyshape this value needs to be 0
-					<attribute id="BodyType" type="uint8" value="0"/> <!--0 = Masc 1 = Fem -->
-                			<attribute id="DisplayName" type="TranslatedString" handle="h55779bb1g844eg48a1gaa92g3e73909046b4" version="1"/> 
-					same as the handle in your Localization\English\custom_name_here.xml
-					<attribute id="RaceUUID" type="guid" value="153cba85-b9cd-46ac-a5cc-949ecb206d9d"/>
-					The UUID for the race you're making the head for. See below for a list.
-					<attribute id="SlotName" type="FixedString" value="Head"/>
-					<attribute id="UUID" type="guid" value="2d432d0c-d4a8-4162-b38f-79c085ec5730"/> <!--Unique UUID -->
-					<attribute id="VisualResource" type="guid" value="16bcb9de-87f7-47ec-871a-da808ec2a0ce"/>
-					<!--^ This UUID must match the one in the head merged.lsf or the custom name you give it-->
-				</node>
-		<!--Warbringer Heads-->
-				<node id="CharacterCreationAppearanceVisual"> Warbringer - A
-					<attribute id="BodyShape" type="uint8" value="0"/> <!--0 = Standard 1 = Tall Muscular -->
-					for Dragonborn and Half-Orcs even though they use Tall Muscular bodyshape this value needs to be 0
-					<attribute id="BodyType" type="uint8" value="0"/> <!--0 = Masc 1 = Fem -->
-                			<attribute id="DisplayName" type="TranslatedString" handle="h55779bb1g844eg48a1gaa92g3e73909046b4" version="1"/> 
-					same as the handle in your Localization\English\custom_name_here.xml
-					<attribute id="RaceUUID" type="guid" value="153cba85-b9cd-46ac-a5cc-949ecb206d9d"/>
-					The UUID for the race you're making the head for. See below for a list.
-					<attribute id="SlotName" type="FixedString" value="Head"/>
-					<attribute id="UUID" type="guid" value="8827dc9d-8cf1-40c5-91cd-3de0a8cdb8aa"/> <!--Unique UUID -->
-					<attribute id="VisualResource" type="guid" value="5fdb820e-cece-4f2b-8e4e-ab38df76b84c"/>
-					<!--^ This UUID must match the one in the head merged.lsf or the custom name you give it-->
-				</node>
 
 		<!--Hair -->
 		
