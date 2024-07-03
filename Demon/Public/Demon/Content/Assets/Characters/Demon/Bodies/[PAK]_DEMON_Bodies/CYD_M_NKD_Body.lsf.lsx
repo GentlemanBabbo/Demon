@@ -835,7 +835,7 @@
 					<attribute id="ID" type="FixedString" value="888e8451-7979-4128-bb99-8836e94a9342" />
 					<attribute id="MaterialType" type="uint8" value="18" />
 					<attribute id="Name" type="LSString" value="Colorable_CYD_Skin_LegsFlesh" />
-                    			<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Skin_Head_v3.lsf" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/Trips_Skin_Body_Old.lsf" />
 					<children>
 						<node id="ScalarParameters">
 							<attribute id="BaseValue" type="float" value="0.7" />
