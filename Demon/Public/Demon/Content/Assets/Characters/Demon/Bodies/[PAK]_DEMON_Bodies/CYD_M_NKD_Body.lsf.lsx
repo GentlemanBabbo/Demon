@@ -11,6 +11,38 @@
 					<attribute id="Name" type="LSString" value="Colorable_CYD_Skin_TorsoMech" />
                    			<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Horns.lsf" />
 					<children>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.5" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Reflectance" />
+							<attribute id="Value" type="float" value="0.5" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="NonSkinColor" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec3" value="0.16862746 0.13725491 0.11372549" />
+							<attribute id="BaseValue" type="fvec3" value="0.16862746 0.13725491 0.11372549" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="NonSkinTipColor" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec3" value="0.09411765 0.07058824 0.05490196" />
+							<attribute id="BaseValue" type="fvec3" value="0.09411765 0.07058824 0.05490196" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="SkinApproxColor" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec3" value="0.5699794 0.11318714 0.10072263" />
+							<attribute id="BaseValue" type="fvec3" value="0.5699794 0.11318714 0.10072263" />
+						</node>
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
@@ -39,8 +71,416 @@
 					<attribute id="ID" type="FixedString" value="096d5756-9d57-422d-ae1f-1c00560dc12e" />
 					<attribute id="MaterialType" type="uint8" value="18" />
 					<attribute id="Name" type="LSString" value="Colorable_CYD_Skin_TorsoFlesh" />
-                   			<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Skin_Head_v3.lsf" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/Trips_Skin_Body_Old.lsf" />
 					<children>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="DetailNormalTiling" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="False" />
+							<attribute id="Value" type="float" value="40" />
+							<attribute id="BaseValue" type="float" value="40" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Sweat" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="IllithidColorWeight" />
+							<attribute id="GroupName" type="FixedString" value="11IllithidTransform" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="isGenitals" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ExportAsPreset" type="bool" value="False" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Blood" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="UniformName" type="FixedString" value="FloatParameter_Blood" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Dirt" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Bruises" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Blood_Sharpness" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0.7" />
+							<attribute id="BaseValue" type="float" value="0.7" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Dirt_Sharpness" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0.7" />
+							<attribute id="BaseValue" type="float" value="0.7" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Bruises_Sharpness" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="1" />
+							<attribute id="BaseValue" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Sweat_Sharpness" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="1" />
+							<attribute id="BaseValue" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="HemoglobinAmount" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="1" />
+							<attribute id="BaseValue" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="MelaninDarkThreshold" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0.9" />
+							<attribute id="BaseValue" type="float" value="0.9" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="MelaninDarkMultiplier" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="2" />
+							<attribute id="BaseValue" type="float" value="2" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="MelaninAmount" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0.6" />
+							<attribute id="BaseValue" type="float" value="0.6" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Vitiligo" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="VitiligoWeight" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0.5" />
+							<attribute id="BaseValue" type="float" value="0.5" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Freckles" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="FrecklesWeight" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0.1" />
+							<attribute id="BaseValue" type="float" value="0.1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="MelaninRemovalAmount" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="VeinAmount" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="1" />
+							<attribute id="BaseValue" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="YellowingAmount" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0.3" />
+							<attribute id="BaseValue" type="float" value="0.3" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="doDrawTattoo" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ExportAsPreset" type="bool" value="False" />
+							<attribute id="Value" type="float" value="1" />
+							<attribute id="BaseValue" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="BodyTattooIndex" />
+							<attribute id="GroupName" type="FixedString" value="04Tattoo" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="TattooCurvatureInfluence" />
+							<attribute id="GroupName" type="FixedString" value="04Tattoo" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="1" />
+							<attribute id="BaseValue" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="CLEA_Makeup_Weight" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="NonSkin_Weight" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="1" />
+							<attribute id="BaseValue" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Grime" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Dirt_Wetness" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0.2" />
+							<attribute id="BaseValue" type="float" value="0.2" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="NonSkinMetalness" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="TattooMetalness" />
+							<attribute id="GroupName" type="FixedString" value="04Tattoo" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="TMP_BODY_ROUGH" />
+							<attribute id="GroupName" type="FixedString" value="TMP" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0.56" />
+							<attribute id="BaseValue" type="float" value="0.56" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="TattooRoughnessOffset" />
+							<attribute id="GroupName" type="FixedString" value="04Tattoo" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="CLEA_Makeup_Roughness" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="float" value="0.2" />
+							<attribute id="BaseValue" type="float" value="0.2" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="HemoglobinColor" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec3" value="0.6523701 0.009021491 0.009021491" />
+							<attribute id="BaseValue" type="fvec3" value="0.6523701 0.009021491 0.009021491" />
+							<attribute id="IsColor" type="bool" value="True" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="VeinColor" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec3" value="0 0.421 0.73" />
+							<attribute id="BaseValue" type="fvec3" value="0 0.421 0.73" />
+							<attribute id="IsColor" type="bool" value="True" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="MelaninColor" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec3" value="0.0077220076 0.003907067 0.00185442" />
+							<attribute id="BaseValue" type="fvec3" value="0.0077220076 0.003907067 0.00185442" />
+							<attribute id="IsColor" type="bool" value="True" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="YellowingColor" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec3" value="1 0.7889278 0.1840635" />
+							<attribute id="BaseValue" type="fvec3" value="1 0.7889278 0.1840635" />
+							<attribute id="IsColor" type="bool" value="True" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="IllithidVeinColor" />
+							<attribute id="GroupName" type="FixedString" value="11IllithidTransform" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec3" value="0.011764706 0.003921569 0.019607844" />
+							<attribute id="BaseValue" type="fvec3" value="0.011764706 0.003921569 0.019607844" />
+							<attribute id="IsColor" type="bool" value="False" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="BodyTattooColor" />
+							<attribute id="GroupName" type="FixedString" value="04Tattoo" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec3" value="0.018484231 0.027027028 0.018484231" />
+							<attribute id="BaseValue" type="fvec3" value="0.018484231 0.027027028 0.018484231" />
+							<attribute id="IsColor" type="bool" value="True" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="BodyTattooColorG" />
+							<attribute id="GroupName" type="FixedString" value="04Tattoo" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec3" value="0.018484231 0.027027028 0.018484231" />
+							<attribute id="BaseValue" type="fvec3" value="0.018484231 0.027027028 0.018484231" />
+							<attribute id="IsColor" type="bool" value="True" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="BodyTattooColorB" />
+							<attribute id="GroupName" type="FixedString" value="04Tattoo" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec3" value="0.018484231 0.027027028 0.018484231" />
+							<attribute id="BaseValue" type="fvec3" value="0.018484231 0.027027028 0.018484231" />
+							<attribute id="IsColor" type="bool" value="True" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="BodyTattooColorA" />
+							<attribute id="GroupName" type="FixedString" value="04Tattoo" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec3" value="0.018484231 0.027027028 0.018484231" />
+							<attribute id="BaseValue" type="fvec3" value="0.018484231 0.027027028 0.018484231" />
+							<attribute id="IsColor" type="bool" value="True" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Body_Hair_Color" />
+							<attribute id="GroupName" type="FixedString" value="03Hair" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec3" value="0.10688031 0.05512501 0.01653015" />
+							<attribute id="BaseValue" type="fvec3" value="0.10688031 0.05512501 0.01653015" />
+							<attribute id="IsColor" type="bool" value="True" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="CLEA_Makeup_Color" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec3" value="0.1163311 1 0" />
+							<attribute id="BaseValue" type="fvec3" value="0.1163311 1 0" />
+							<attribute id="IsColor" type="bool" value="True" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="NonSkinColor" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec3" value="0.044398725 0.01316299 0.0006657844" />
+							<attribute id="BaseValue" type="fvec3" value="0.044398725 0.01316299 0.0006657844" />
+							<attribute id="IsColor" type="bool" value="True" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="DirtColor" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec3" value="0.11764706 0.06666667 0.047058824" />
+							<attribute id="BaseValue" type="fvec3" value="0.11764706 0.06666667 0.047058824" />
+							<attribute id="IsColor" type="bool" value="True" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Blood_Color" />
+							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec3" value="0.12941177 0.007843138 0.003921569" />
+							<attribute id="BaseValue" type="fvec3" value="0.12941177 0.007843138 0.003921569" />
+							<attribute id="IsColor" type="bool" value="True" />
+						</node>
+						<node id="VectorParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="BodyTattooIntensity" />
+							<attribute id="GroupName" type="FixedString" value="04Tattoo" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="Value" type="fvec4" value="0 0 0 0" />
+							<attribute id="BaseValue" type="fvec4" value="0 0 0 0" />
+							<attribute id="IsColor" type="bool" value="False" />
+						</node>
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
@@ -68,7 +508,7 @@
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
 					<attribute id="ID" type="FixedString" value="cf4de9b3-b988-41cd-bf3c-5bb416aa2c8b" />
 					<attribute id="MaterialType" type="uint8" value="18" />
-					<attribute id="Name" type="LSString" value="Colorable_CYD_Skin_MechParts" />
+					<attribute id="Name" type="LSString" value="Colorable_CYD_MechOuterArm" />
                     			<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Horns.lsf" />
 					<children>
 						<node id="ScalarParameters">
@@ -179,7 +619,7 @@
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
 					<attribute id="ID" type="FixedString" value="2f57ef08-4afb-4e6d-8105-c35787848f27" />
 					<attribute id="MaterialType" type="uint8" value="18" />
-					<attribute id="Name" type="LSString" value="Colorable_CYD_Skin_Arms" />
+					<attribute id="Name" type="LSString" value="Colorable_CYD_MechInnerArms" />
                     			<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Horns.lsf" />
 					<children>
 						<node id="ScalarParameters">
@@ -251,13 +691,6 @@
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
 							<attribute id="ID" type="FixedString" value="c4fe3605-5df3-4fb0-9463-9cd5b1a5f0f3" /> BM, Base map, diffuse
 							<attribute id="ParameterName" type="FixedString" value="basecolor" />
-						</node>
-						<node id="Texture2DParameters">
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="589f903d-ad41-4bec-bdd1-31ee014ff832" />
-							<attribute id="ParameterName" type="FixedString" value="MSKColor" />
 						</node>
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="True" />
@@ -625,117 +1058,6 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">
-					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
-					<attribute id="ID" type="FixedString" value="969f14ad-5b31-4a55-9461-a43ed11cdfe1" />
-					<attribute id="MaterialType" type="uint8" value="18" />
-					<attribute id="Name" type="LSString" value="Colorable_CYD_Skin_Head" />
-                    			<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Horns.lsf" />
-					<children>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0.7" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Armor_Dirt_Sharpness" />
-							<attribute id="Value" type="float" value="0.7" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0.5" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Armor_Blood_Sharpness" />
-							<attribute id="Value" type="float" value="0.5" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="4" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="False" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Dirt_AO_Sharpness" />
-							<attribute id="Value" type="float" value="4" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="4" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="False" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Blood_AO_Sharpness" />
-							<attribute id="Value" type="float" value="4" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Dirt" />
-							<attribute id="Value" type="float" value="0" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Blood" />
-							<attribute id="Value" type="float" value="0" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0.5" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Reflectance" />
-							<attribute id="Value" type="float" value="0.5" />
-						</node>
-						<node id="Texture2DParameters">
-							<attribute id="Enabled" type="bool" value="True" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="1d20c76e-7c65-4438-9f94-6de18a83cfca" /> POINTS TO NORMAL MAP
-							<attribute id="ParameterName" type="FixedString" value="normalmap" />
-						</node>
-						<node id="Texture2DParameters">
-							<attribute id="Enabled" type="bool" value="True" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="8357862d-a115-4a5d-8212-9db8d969831b" /> BM, Base map, diffuse
-							<attribute id="ParameterName" type="FixedString" value="basecolor" />
-						</node>
-						<node id="Texture2DParameters">
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="589f903d-ad41-4bec-bdd1-31ee014ff832" />
-							<attribute id="ParameterName" type="FixedString" value="MSKColor" />
-						</node>
-						<node id="Texture2DParameters">
-							<attribute id="Enabled" type="bool" value="True" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="cc5912c7-b3f5-40ee-a786-7064602357e4" /> Physical map
-							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
-						</node>
-						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.1176471 0.06666667 0.04705882" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
-							<attribute id="IsColor" type="bool" value="True" />
-							<attribute id="ParameterName" type="FixedString" value="DirtColor" />
-							<attribute id="Value" type="fvec3" value="0.1176471 0.06666667 0.04705882" />
-						</node>
-						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.1294118 0.007843138 0.003921569" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
-							<attribute id="IsColor" type="bool" value="True" />
-							<attribute id="ParameterName" type="FixedString" value="Blood_Color" />
-							<attribute id="Value" type="fvec3" value="0.1294118 0.007843138 0.003921569" />
-						</node>
-					</children>
-				</node>
 			</children>
 		</node>
 	</region>
@@ -746,11 +1068,11 @@
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
 					<attribute id="ID" type="FixedString" value="b4e35b8b-4492-41a0-a635-347dcef3f21e" />
-					<attribute id="Name" type="LSString" value="dreadknight_torso_BM" />
+					<attribute id="Name" type="LSString" value="TorsoMech_BM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/dreadknight_torso_BM.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/TorsoMech_BM.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="dreadknight_torso_BM" />
+					<attribute id="Template" type="FixedString" value="TorsoMech_BM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -759,11 +1081,11 @@
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
 					<attribute id="ID" type="FixedString" value="4765efde-ce18-4bab-b4fc-c7955410dc57" />
-					<attribute id="Name" type="LSString" value="dreadknight_torso_NM" />
+					<attribute id="Name" type="LSString" value="TorsoMech_NM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/dreadknight_torso_NM.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/TorsoMech_NM.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="dreadknight_torso_NM" />
+					<attribute id="Template" type="FixedString" value="TorsoMech_NM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -772,11 +1094,11 @@
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
 					<attribute id="ID" type="FixedString" value="661989d8-e8d9-46f7-ad73-52de99abad4c" />
-					<attribute id="Name" type="LSString" value="dreadknight_torso_PM" />
+					<attribute id="Name" type="LSString" value="TorsoMech_PM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/dreadknight_torso_PM.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/TorsoMech_PM.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="dreadknight_torso_PM" />
+					<attribute id="Template" type="FixedString" value="TorsoMech_PM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -785,11 +1107,11 @@
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
 					<attribute id="ID" type="FixedString" value="82b1feab-05de-4f9e-86b6-01c7addf5ed6" />
-					<attribute id="Name" type="LSString" value="dreadknight_torso_HMVY" />
+					<attribute id="Name" type="LSString" value="TorsoFlesh_HMVY" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/dreadknight_torso_HMVY.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/TorsoFlesh_HMVY.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="dreadknight_torso_HMVY" />
+					<attribute id="Template" type="FixedString" value="TorsoFlesh_HMVY" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -798,11 +1120,11 @@
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
 					<attribute id="ID" type="FixedString" value="2e4d8f72-0145-49b6-beb4-0d2ac4e1032b" />
-					<attribute id="Name" type="LSString" value="dreadknight_torso_CLEA" />
+					<attribute id="Name" type="LSString" value="TorsoFlesh_CLEA" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/dreadknight_torso_CLEA.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/TorsoFlesh_CLEA.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="dreadknight_torso_CLEA" />
+					<attribute id="Template" type="FixedString" value="TorsoFlesh_CLEA" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -811,11 +1133,11 @@
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
 					<attribute id="ID" type="FixedString" value="a987fdb3-76bd-438b-bcac-26ce61ce89d0" />
-					<attribute id="Name" type="LSString" value="dreadknight_armor_BM" />
+					<attribute id="Name" type="LSString" value="MechOuterArm_BM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/dreadknight_armor_BM.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/MechOuterArm_BM.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="dreadknight_armor_BM" />
+					<attribute id="Template" type="FixedString" value="MechOuterArm_BM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -824,11 +1146,11 @@
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
 					<attribute id="ID" type="FixedString" value="11dd3777-6112-4cbb-bc4f-b9437fa40b31" />
-					<attribute id="Name" type="LSString" value="dreadknight_armor_NM" />
+					<attribute id="Name" type="LSString" value="MechOuterArm_NM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/dreadknight_armor_NM.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/MechOuterArm_NM.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="dreadknight_armor_NM" />
+					<attribute id="Template" type="FixedString" value="MechOuterArm_NM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -837,11 +1159,11 @@
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
 					<attribute id="ID" type="FixedString" value="a5323d81-c43f-40a5-8267-2d827dfcd230" />
-					<attribute id="Name" type="LSString" value="dreadknight_armor_PM" />
+					<attribute id="Name" type="LSString" value="MechOuterArm_PM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/dreadknight_armor_PM.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/MechOuterArm_PM.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="dreadknight_armor_PM" />
+					<attribute id="Template" type="FixedString" value="MechOuterArm_PM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -850,11 +1172,11 @@
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
 					<attribute id="ID" type="FixedString" value="c4fe3605-5df3-4fb0-9463-9cd5b1a5f0f3" />
-					<attribute id="Name" type="LSString" value="dreadknight_arm_BM" />
+					<attribute id="Name" type="LSString" value="MechInnerArm_BM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/dreadknight_arm_BM.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/MechInnerArm_BM.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="dreadknight_arm_BM" />
+					<attribute id="Template" type="FixedString" value="MechInnerArm_BM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -863,11 +1185,11 @@
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
 					<attribute id="ID" type="FixedString" value="92240885-8685-4d4e-bfe5-107a2553af82" />
-					<attribute id="Name" type="LSString" value="dreadknight_arm_NM" />
+					<attribute id="Name" type="LSString" value="MechInnerArm_NM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/dreadknight_arm_NM.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/MechInnerArm_NM.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="dreadknight_arm_NM" />
+					<attribute id="Template" type="FixedString" value="MechInnerArm_NM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -876,11 +1198,11 @@
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
 					<attribute id="ID" type="FixedString" value="d3c33144-db79-4235-b3f9-3af6a4e864b0" />
-					<attribute id="Name" type="LSString" value="dreadknight_arm_PM" />
+					<attribute id="Name" type="LSString" value="MechInnerArm_PM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/dreadknight_arm_PM.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/MechInnerArm_PM.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="dreadknight_arm_PM" />
+					<attribute id="Template" type="FixedString" value="MechInnerArm_PM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -889,11 +1211,11 @@
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
 					<attribute id="ID" type="FixedString" value="ff79e6e5-605b-4dda-bb77-b362eae96753" />
-					<attribute id="Name" type="LSString" value="dreadknight_leg_BM" />
+					<attribute id="Name" type="LSString" value="LegMechPart_BM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/dreadknight_leg_BM.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/LegMechPart_BM.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="dreadknight_leg_BM" />
+					<attribute id="Template" type="FixedString" value="LegMechPart_BM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -902,11 +1224,11 @@
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
 					<attribute id="ID" type="FixedString" value="0235ad92-7f42-4873-bd84-8408ad16f84b" />
-					<attribute id="Name" type="LSString" value="dreadknight_leg_NM" />
+					<attribute id="Name" type="LSString" value="LegMechPart_NM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/dreadknight_leg_NM.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/LegMechPart_NM.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="dreadknight_leg_NM" />
+					<attribute id="Template" type="FixedString" value="LegMechPart_NM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -915,11 +1237,11 @@
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
 					<attribute id="ID" type="FixedString" value="a1b300d1-426c-4496-ad7b-3b80a72928b7" />
-					<attribute id="Name" type="LSString" value="dreadknight_leg_PM" />
+					<attribute id="Name" type="LSString" value="LegMechPart_PM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/dreadknight_leg_PM.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/LegMechPart_PM.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="dreadknight_leg_PM" />
+					<attribute id="Template" type="FixedString" value="LegMechPart_PM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -928,11 +1250,11 @@
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
 					<attribute id="ID" type="FixedString" value="660a1f0c-556c-4a5b-8962-b69312e52a6b" />
-					<attribute id="Name" type="LSString" value="dreadknight_leg_HMVY" />
+					<attribute id="Name" type="LSString" value="LegFlesh_HMVY" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/dreadknight_leg_HMVY.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/LegFlesh_HMVY.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="dreadknight_leg_HMVY" />
+					<attribute id="Template" type="FixedString" value="LegFlesh_HMVY" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -941,11 +1263,11 @@
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
 					<attribute id="ID" type="FixedString" value="012027e9-9bab-43be-b711-d2d180e1c38c" />
-					<attribute id="Name" type="LSString" value="dreadknight_leg_CLEA" />
+					<attribute id="Name" type="LSString" value="LegFlesh_CLEA" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/dreadknight_leg_CLEA.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/LegFlesh_CLEA.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="dreadknight_leg_CLEA" />
+					<attribute id="Template" type="FixedString" value="LegFlesh_CLEA" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -1033,120 +1355,6 @@
 					<attribute id="Template" type="FixedString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/DK_M_Body.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
 					<children>						
-						<node id="AnimationSetOverrides">
-							<attribute id="PairElement1" type="guid" value="92cd50b6-eb1b-4824-8adb-853e90c34c90" />
-							<attribute id="PairElement2" type="FixedString" value="7f940513-1d1c-0698-a640-d2ab19247c4c" />
-							<attribute id="strAnimationSetOverrideType" type="int32" value="1" />
-						</node>
-						<node id="AnimationSetOverrides">
-							<attribute id="PairElement1" type="guid" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f" />
-							<attribute id="PairElement2" type="FixedString" value="a2dc8d82-3c4e-2440-a284-ac2bc01e1ae7" />
-							<attribute id="strAnimationSetOverrideType" type="int32" value="0" />
-						</node>
-						<node id="AnimationSetOverrides">
-							<attribute id="PairElement1" type="guid" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f" />
-							<attribute id="PairElement2" type="FixedString" value="42c92835-92e0-6126-4161-b63ce6ae1147" />
-							<attribute id="strAnimationSetOverrideType" type="int32" value="1" />
-						</node>
-						<node id="AnimationSetOverrides">
-							<attribute id="PairElement1" type="guid" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399" />
-							<attribute id="PairElement2" type="FixedString" value="2d742d0b-4495-d21e-dd32-e59f57c79596" />
-							<attribute id="strAnimationSetOverrideType" type="int32" value="1" />
-						</node>
-						<node id="AnimationSetOverrides">
-							<attribute id="PairElement1" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf" />
-							<attribute id="PairElement2" type="FixedString" value="a4d69b53-bcdb-4d80-b535-0963aa73ed4e" />
-							<attribute id="strAnimationSetOverrideType" type="int32" value="1" />
-						</node>
-						<node id="AnimationSetOverrides">
-							<attribute id="PairElement1" type="guid" value="457d0a6e-9da8-4f95-a225-18382f0e94b5" />
-							<attribute id="PairElement2" type="FixedString" value="a32ae1ef-eca8-e0e5-af5d-86812ee083a3" />
-							<attribute id="strAnimationSetOverrideType" type="int32" value="1" />
-						</node>
-						<node id="AnimationSetOverrides">
-							<attribute id="PairElement1" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f" />
-							<attribute id="PairElement2" type="FixedString" value="cb997234-2ada-a5d4-3700-99f8ecc9968f" />
-							<attribute id="strAnimationSetOverrideType" type="int32" value="1" />
-						</node>
-						<node id="AnimationSetOverrides">
-							<attribute id="PairElement1" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c" />
-							<attribute id="PairElement2" type="FixedString" value="d96e16a7-dbe1-5993-5f30-c3a095220c29" />
-							<attribute id="strAnimationSetOverrideType" type="int32" value="1" />
-						</node>
-						<node id="AnimationSetOverrides">
-							<attribute id="PairElement1" type="guid" value="36be18ba-23db-4dff-bfa6-ae105ce43144" />
-							<attribute id="PairElement2" type="FixedString" value="ac4ecdcf-1d6b-b4c1-ef95-7a6000eb7e73" />
-							<attribute id="strAnimationSetOverrideType" type="int32" value="1" />
-						</node>
-						<node id="AnimationSetOverrides">
-							<attribute id="PairElement1" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a" />
-							<attribute id="PairElement2" type="FixedString" value="2d065b9d-e5fd-edde-18dc-ac59e4f1f2ff" />
-							<attribute id="strAnimationSetOverrideType" type="int32" value="1" />
-						</node>
-						<node id="AnimationSetOverrides">
-							<attribute id="PairElement1" type="guid" value="784001e2-c96d-4153-beb6-2adbef5abc92" />
-							<attribute id="PairElement2" type="FixedString" value="d360089d-5854-1552-f14b-d97e19c4c399" />
-							<attribute id="strAnimationSetOverrideType" type="int32" value="1" />
-						</node>
-						<node id="AnimationSetOverrides">
-							<attribute id="PairElement1" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c" />
-							<attribute id="PairElement2" type="FixedString" value="56cd2f2c-5b50-b609-95d2-b47744d37293" />
-							<attribute id="strAnimationSetOverrideType" type="int32" value="1" />
-						</node>
-						<node id="AnimationSetOverrides">
-							<attribute id="PairElement1" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09" />
-							<attribute id="PairElement2" type="FixedString" value="1587f3b2-0f6a-e986-2a64-90f5029b481a" />
-							<attribute id="strAnimationSetOverrideType" type="int32" value="1" />
-						</node>
-						<node id="AnimationSetOverrides">
-							<attribute id="PairElement1" type="guid" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399" />
-							<attribute id="PairElement2" type="FixedString" value="34e469eb-eb33-100f-4c4c-0f56aefb8888" />
-							<attribute id="strAnimationSetOverrideType" type="int32" value="0" />
-						</node>
-						<node id="AnimationSetOverrides">
-							<attribute id="PairElement1" type="guid" value="92cd50b6-eb1b-4824-8adb-853e90c34c90" />
-							<attribute id="PairElement2" type="FixedString" value="6a4762ee-e033-5500-5e26-9d01401ed906" />
-							<attribute id="strAnimationSetOverrideType" type="int32" value="0" />
-						</node>
-						<node id="AnimationSetOverrides">
-							<attribute id="PairElement1" type="guid" value="b6aa23c3-c96d-42d5-8ffa-8d441d18faa7" />
-							<attribute id="PairElement2" type="FixedString" value="51f627e9-171b-dfcc-3e51-f353bf23431c" />
-							<attribute id="strAnimationSetOverrideType" type="int32" value="0" />
-						</node>
-						<node id="AnimationSetOverrides">
-							<attribute id="PairElement1" type="guid" value="aafbe780-d237-416e-9d05-e03070c9dbee" />
-							<attribute id="PairElement2" type="FixedString" value="3dd0779a-f0fb-f6e4-af58-49fefc314a26" />
-							<attribute id="strAnimationSetOverrideType" type="int32" value="0" />
-						</node>
-						<node id="AnimationSetOverrides">
-							<attribute id="PairElement1" type="guid" value="f9448523-02e4-4117-b437-b1761e39f487" />
-							<attribute id="PairElement2" type="FixedString" value="ae996c12-9f93-655f-6f04-f7bec8cef6eb" />
-							<attribute id="strAnimationSetOverrideType" type="int32" value="0" />
-						</node>
-						<node id="AnimationWaterfall">
-							<attribute id="Object" type="FixedString" value="c5444852-1895-0e73-37c5-d0a4eb1c0219" />
-						</node>
-						<node id="AnimationWaterfall">
-							<attribute id="Object" type="FixedString" value="3c5ac745-11bb-4489-a636-ef21e3e4f424" />
-						</node>
-						<node id="AnimationWaterfall">
-							<attribute id="Object" type="FixedString" value="da29fce1-056a-4f86-b110-d61679c21238" />
-						</node>
-						<node id="AnimationWaterfall">
-							<attribute id="Object" type="FixedString" value="11742d82-86c8-a938-e205-c8824d1d7a73" />
-						</node>
-						<node id="AnimationWaterfall">
-							<attribute id="Object" type="FixedString" value="125eb6fc-c0e5-e45e-bf1a-4bbb04be1ee0" />
-						</node>
-						<node id="AnimationWaterfall">
-							<attribute id="Object" type="FixedString" value="e3d75482-3a85-f8c7-467d-8975f0fc0883" />
-						</node>
-						<node id="AnimationWaterfall">
-							<attribute id="Object" type="FixedString" value="8405f6a4-e695-c33a-d482-a4d9a472599e" />
-						</node>
-						<node id="AnimationWaterfall">
-							<attribute id="Object" type="FixedString" value="324bfb20-54e4-01c5-8a11-849c3352a6a3" />
-						</node>
 						<node id="Base" />
 						<node id="ClothProxyMapping" />
 						<node id="Objects">
