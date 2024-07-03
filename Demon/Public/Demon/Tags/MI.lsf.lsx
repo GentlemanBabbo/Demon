@@ -7,7 +7,7 @@
 			<attribute id="DisplayDescription" type="TranslatedString" handle="hbcfa37b9ga5a6g441cgad71gec0adccfaeac" version="1" />
 			<attribute id="DisplayName" type="TranslatedString" handle="h52d8bca4g7983g4da1g8a1cg511a3ff9c640" version="1" />
 			<attribute id="Icon" type="FixedString" value="" />
-			<attribute id="Name" type="FixedString" value="Demon" />
+			<attribute id="Name" type="FixedString" value="MI" />
 			<attribute id="UUID" type="guid" value="d416071f-b24e-47cc-9e3f-bdde2656aa93" />
 			<children>
 				<node id="Categories">
