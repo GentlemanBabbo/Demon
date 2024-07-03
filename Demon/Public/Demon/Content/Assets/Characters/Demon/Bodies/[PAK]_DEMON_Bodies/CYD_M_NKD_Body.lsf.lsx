@@ -897,7 +897,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="0235ad92-7f42-4873-bd84-8408ad16f84b" /> POINTS TO NORMAL MAP
+							<attribute id="ID" type="FixedString" value="f5c7b71d-d542-4512-b6ec-0cfeae3249e5" /> POINTS TO NORMAL MAP
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 						</node>
 						<node id="Texture2DParameters">
@@ -1242,6 +1242,19 @@
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/LegMechPart_PM.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="LegMechPart_PM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="f5c7b71d-d542-4512-b6ec-0cfeae3249e5" />
+					<attribute id="Name" type="LSString" value="LegFlesh_NM" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/LegFlesh_NM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="LegFlesh_NM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
