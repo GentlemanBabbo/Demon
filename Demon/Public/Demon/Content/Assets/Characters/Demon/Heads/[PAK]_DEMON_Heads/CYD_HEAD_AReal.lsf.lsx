@@ -2472,7 +2472,7 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="e1f7ee66-4365-4d33-b0b8-7edd25db101e" />
+					<attribute id="ID" type="FixedString" value="3baeaf60-1847-43c4-8f01-a2b13dc6344f" />
 					<attribute id="MaterialType" type="uint8" value="0" />
 					<attribute id="Name" type="LSString" value="CYD_MS_Head_B" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
@@ -2508,8 +2508,8 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="07639d4e-3d9f-d321-0146-f0d975d6f33a" />
-							<attribute id="ObjectID" type="FixedString" value="DK_M_Head_B.2_Proxy_SPEC_A_Mouth_Interior_Mesh.1" />
+							<attribute id="MaterialID" type="FixedString" value="51e5d762-bc88-85a4-1cf8-8449b563b0bf" />
+							<attribute id="ObjectID" type="FixedString" value="DK_M_Head_B.2DOPPEL_Head_A_Mouth_Interior_Mesh.1" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
@@ -2533,28 +2533,13 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="07639d4e-3d9f-d321-0146-f0d975d6f33a" />
-							<attribute id="ObjectID" type="FixedString" value="DK_M_Head_B.7_Proxy_SPEC_A_Teeth_Bottom_Mesh.6" />
-						</node>
-						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="07639d4e-3d9f-d321-0146-f0d975d6f33a" />
-							<attribute id="ObjectID" type="FixedString" value="DK_M_Head_B.8_Proxy_SPEC_A_Teeth_Top_Mesh.7" />
-						</node>
-						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="07639d4e-3d9f-d321-0146-f0d975d6f33a" />
-							<attribute id="ObjectID" type="FixedString" value="DK_M_Head_B.9_Proxy_SPEC_A_Tongue_Mesh.8" />
-						</node>
-						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="26dd58c4-c073-1a74-1ae1-7b2018ebd900" />
-							<attribute id="ObjectID" type="FixedString" value="DK_M_Head_B.10_AUTO_MS_NKD_Head_D_Brain.8" />
+							<attribute id="ObjectID" type="FixedString" value="DK_M_Head_B.10_AUTO_MS_NKD_Head_D_Brain.6" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="840f4afc-eb73-9b0b-fb2d-23479e5cd75c" />
-							<attribute id="ObjectID" type="FixedString" value="DK_M_Head_B.11_AUTO_MS_NKD_Head_D_Glass.8" />
+							<attribute id="ObjectID" type="FixedString" value="DK_M_Head_B.11_AUTO_MS_NKD_Head_D_Glass.7" />
 						</node>
 					</children>
 				</node>
