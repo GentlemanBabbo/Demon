@@ -34,6 +34,37 @@
 					<attribute id="VisualResource" type="guid" value="0ee1b356-677a-4d87-aca8-6324c9289d81" />
 					<!-- Match the ID line in the Hair merged in this template it is Public\Autosnapping_Template\Content\Assets\Characters\[PAK]_Hair\_merged.lsf.lsx -->
         		</node>
+
+		                <node id="CharacterCreationAppearanceVisual">
+		                    <attribute id="BodyShape" type="uint8" value="0"/>
+		                    <attribute id="BodyType" type="uint8" value="0"/>
+		                    <attribute id="DisplayName" type="TranslatedString" handle="f8a41e02-176b-46c0-83fb-5b15ad98ba4c" version="1"/>
+							<attribute id="IconIdOverride" type="FixedString" value="0_Hair_cb44843d-2cb5-4a25-b144-b786843fa065"/>
+					<attribute id="RaceUUID" type="guid" value="153cba85-b9cd-46ac-a5cc-949ecb206d9d"/>
+		                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+		                    <attribute id="UUID" type="guid" value="6382e3a5-a8df-44aa-8749-182e203f73e1"/>
+		                    <attribute id="VisualResource" type="guid" value="5ec873bb-3c93-40ac-b525-ff653329c617"/>
+		                </node>
+		                <node id="CharacterCreationAppearanceVisual">
+		                    <attribute id="BodyShape" type="uint8" value="0"/>
+		                    <attribute id="BodyType" type="uint8" value="0"/>
+		                    <attribute id="DisplayName" type="TranslatedString" handle="8ac70ddd-baea-402a-837c-5ed89042b7fb" version="1"/>
+							<attribute id="IconIdOverride" type="FixedString" value="0_Hair_50efab2e-9e10-4924-9ee6-bfc36d02ed14"/>
+					<attribute id="RaceUUID" type="guid" value="153cba85-b9cd-46ac-a5cc-949ecb206d9d"/>
+		                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+		                    <attribute id="UUID" type="guid" value="a8287fbb-95a7-4e63-9375-f822b53bba9d"/>
+		                    <attribute id="VisualResource" type="guid" value="4590b3d6-e37f-4bd7-a861-674a0287475f"/>
+		                </node>
+		                <node id="CharacterCreationAppearanceVisual">
+		                    <attribute id="BodyShape" type="uint8" value="0"/>
+		                    <attribute id="BodyType" type="uint8" value="0"/>
+		                    <attribute id="DisplayName" type="TranslatedString" handle="9a8bc0da-74bf-440b-b20b-ac3b133c826a" version="1"/>
+							<attribute id="IconIdOverride" type="FixedString" value="0_Hair_10ad1435-c7c3-4db8-a015-f5863218ffb2"/>
+					<attribute id="RaceUUID" type="guid" value="153cba85-b9cd-46ac-a5cc-949ecb206d9d"/>
+		                    <attribute id="SlotName" type="FixedString" value="Hair"/>
+		                    <attribute id="UUID" type="guid" value="8381e8a5-e94a-4ecd-9d79-a20e3357e83f"/>
+		                    <attribute id="VisualResource" type="guid" value="0287edb6-f81f-4b3f-80cd-2a664389c974"/>
+		                </node>
 			<!--Female Hair-->
 
 		
