@@ -1636,33 +1636,6 @@
 							<attribute id="ID" type="FixedString" value="fd1ea0d5-61e1-498d-8c12-5363a2f59046" />
 							<attribute id="ParameterName" type="FixedString" value="SkinGradientHorn_MSK" />
 						</node>
-						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.1686275 0.1372549 0.1137255" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
-							<attribute id="IsColor" type="bool" value="True" />
-							<attribute id="ParameterName" type="FixedString" value="NonSkinColor" />
-							<attribute id="Value" type="fvec3" value="0.1686275 0.1372549 0.1137255" />
-						</node>
-						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.09411765 0.07058824 0.05490196" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
-							<attribute id="IsColor" type="bool" value="True" />
-							<attribute id="ParameterName" type="FixedString" value="NonSkinTipColor" />
-							<attribute id="Value" type="fvec3" value="0.09411765 0.07058824 0.05490196" />
-						</node>
-						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.5699794 0.1131871 0.1007226" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
-							<attribute id="IsColor" type="bool" value="True" />
-							<attribute id="ParameterName" type="FixedString" value="SkinApproxColor" />
-							<attribute id="Value" type="fvec3" value="0.5699794 0.1131871 0.1007226" />
-						</node>
 					</children>
 				</node>
 			</children>
