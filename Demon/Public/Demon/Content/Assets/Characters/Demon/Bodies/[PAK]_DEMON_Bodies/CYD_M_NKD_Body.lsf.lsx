@@ -485,7 +485,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="4765efde-ce18-4bab-b4fc-c7955410dc57" /> POINTS TO NORMAL MAP
+							<attribute id="ID" type="FixedString" value="210e3a29-d4ce-45e6-a60b-9973af6475e1" /> POINTS TO NORMAL MAP
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 						</node>
 						<node id="Texture2DParameters">
@@ -501,27 +501,6 @@
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
 							<attribute id="ID" type="FixedString" value="2e4d8f72-0145-49b6-beb4-0d2ac4e1032b" /> CLEA
 							<attribute id="ParameterName" type="FixedString" value="CLEA" />
-						</node>
-						<node id="Texture2DParameters">
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ParameterName" type="FixedString" value="DetailNormalMap" />
-							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="ID" type="FixedString" value="8b42733e-91ef-d267-d846-124187296633" />
-						</node>
-						<node id="Texture2DParameters">
-							<attribute id="Enabled" type="bool" value="True" />
-							<attribute id="ParameterName" type="FixedString" value="CancelMSK" />
-							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="ID" type="FixedString" value="8d7ca383-0830-4c3b-a1ac-44cbcc2c0533" />
-						</node>
-						<node id="Texture2DParameters">
-							<attribute id="Enabled" type="bool" value="True" />
-							<attribute id="ParameterName" type="FixedString" value="BaseColor_NonSkin" />
-							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="ID" type="FixedString" value="c2ad0d7e-c9c2-4003-ac4c-32427b92be3e" />
 						</node>
 					</children>
 				</node>
@@ -853,121 +832,10 @@
 				</node>
 				<node id="Resource">
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
-					<attribute id="ID" type="FixedString" value="888e8451-7979-4128-bb99-8836e94a9342" />
-					<attribute id="MaterialType" type="uint8" value="18" />
-					<attribute id="Name" type="LSString" value="Colorable_CYD_Skin_LegsFlesh" />
-					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/Trips_Skin_Body_Old.lsf" />
-					<children>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0.7" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Armor_Dirt_Sharpness" />
-							<attribute id="Value" type="float" value="0.7" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0.5" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Armor_Blood_Sharpness" />
-							<attribute id="Value" type="float" value="0.5" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="4" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="False" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Dirt_AO_Sharpness" />
-							<attribute id="Value" type="float" value="4" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="4" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="False" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Blood_AO_Sharpness" />
-							<attribute id="Value" type="float" value="4" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Dirt" />
-							<attribute id="Value" type="float" value="0" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Blood" />
-							<attribute id="Value" type="float" value="0" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0.5" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Reflectance" />
-							<attribute id="Value" type="float" value="0.5" />
-						</node>
-						<node id="Texture2DParameters">
-							<attribute id="Enabled" type="bool" value="True" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="f5c7b71d-d542-4512-b6ec-0cfeae3249e5" /> POINTS TO NORMAL MAP
-							<attribute id="ParameterName" type="FixedString" value="normalmap" />
-						</node>
-						<node id="Texture2DParameters">
-							<attribute id="Enabled" type="bool" value="True" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="660a1f0c-556c-4a5b-8962-b69312e52a6b" />HMVY
-							<attribute id="ParameterName" type="FixedString" value="HMVY" />
-						</node>
-						<node id="Texture2DParameters">
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="589f903d-ad41-4bec-bdd1-31ee014ff832" />
-							<attribute id="ParameterName" type="FixedString" value="MSKColor" />
-						</node>
-						<node id="Texture2DParameters">
-							<attribute id="Enabled" type="bool" value="True" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="012027e9-9bab-43be-b711-d2d180e1c38c" /> CLEA
-							<attribute id="ParameterName" type="FixedString" value="CLEA" />
-						</node>
-						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.1176471 0.06666667 0.04705882" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
-							<attribute id="IsColor" type="bool" value="True" />
-							<attribute id="ParameterName" type="FixedString" value="DirtColor" />
-							<attribute id="Value" type="fvec3" value="0.1176471 0.06666667 0.04705882" />
-						</node>
-						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.1294118 0.007843138 0.003921569" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
-							<attribute id="IsColor" type="bool" value="True" />
-							<attribute id="ParameterName" type="FixedString" value="Blood_Color" />
-							<attribute id="Value" type="fvec3" value="0.1294118 0.007843138 0.003921569" />
-						</node>
-					</children>
-				</node>
-				<node id="Resource">
-					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
 					<attribute id="ID" type="FixedString" value="502f4030-1418-4b98-93d1-fbf2c2ec1a3c" />
 					<attribute id="MaterialType" type="uint8" value="18" />
 					<attribute id="Name" type="LSString" value="CYD_Skin_Tubes" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_BASE_GM.lsf" />
+                    			<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_BASE_GM.lsf" />
 					<children>
 						<node id="ScalarParameters">
 							<attribute id="BaseValue" type="float" value="1" />
@@ -1127,25 +995,12 @@
 				<node id="Resource">
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
-					<attribute id="ID" type="FixedString" value="c2ad0d7e-c9c2-4003-ac4c-32427b92be3e" />
-					<attribute id="Name" type="LSString" value="SurgeonTorsoFleshBM" />
+					<attribute id="ID" type="FixedString" value="210e3a29-d4ce-45e6-a60b-9973af6475e1" />
+					<attribute id="Name" type="LSString" value="TorsoFlesh_NM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/SurgeonTorsoFleshBM.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/TorsoFlesh_NM.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="SurgeonTorsoFleshBM" />
-					<attribute id="Type" type="int32" value="1" />
-					<attribute id="Width" type="int32" value="2048" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
-				</node>
-				<node id="Resource">
-					<attribute id="Depth" type="int32" value="1" />
-					<attribute id="Height" type="int32" value="2048" />
-					<attribute id="ID" type="FixedString" value="8d7ca383-0830-4c3b-a1ac-44cbcc2c0533" />
-					<attribute id="Name" type="LSString" value="SurgeonTorsoFleshMSK" />
-					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/SurgeonTorsoFleshMSK.DDS" />
-					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="SurgeonTorsoFleshMSK" />
+					<attribute id="Template" type="FixedString" value="TorsoFlesh_NM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -1154,11 +1009,11 @@
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
 					<attribute id="ID" type="FixedString" value="82b1feab-05de-4f9e-86b6-01c7addf5ed6" />
-					<attribute id="Name" type="LSString" value="SurgeonTorsoFleshHMVY" />
+					<attribute id="Name" type="LSString" value="TorsoFlesh_HMVY" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/SurgeonTorsoFleshHMVY.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/TorsoFlesh_HMVY.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="SurgeonTorsoFleshHMVY" />
+					<attribute id="Template" type="FixedString" value="TorsoFlesh_HMVY" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -1167,11 +1022,11 @@
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
 					<attribute id="ID" type="FixedString" value="2e4d8f72-0145-49b6-beb4-0d2ac4e1032b" />
-					<attribute id="Name" type="LSString" value="SurgeonTorsoFleshCLEA" />
+					<attribute id="Name" type="LSString" value="TorsoFlesh_CLEA" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/SurgeonTorsoFleshCLEA.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/TorsoFlesh_CLEA.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="SurgeonTorsoFleshCLEA" />
+					<attribute id="Template" type="FixedString" value="TorsoFlesh_CLEA" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -1219,11 +1074,11 @@
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
 					<attribute id="ID" type="FixedString" value="c4fe3605-5df3-4fb0-9463-9cd5b1a5f0f3" />
-					<attribute id="Name" type="LSString" value="SurgeonArmBM" />
+					<attribute id="Name" type="LSString" value="MechInnerArm_BM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/SurgeonArmBM.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/MechInnerArm_BM.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="SurgeonArmBM" />
+					<attribute id="Template" type="FixedString" value="MechInnerArm_BM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -1232,11 +1087,11 @@
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
 					<attribute id="ID" type="FixedString" value="92240885-8685-4d4e-bfe5-107a2553af82" />
-					<attribute id="Name" type="LSString" value="SurgeonArmNM" />
+					<attribute id="Name" type="LSString" value="MechInnerArm_NM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/SurgeonArmNM.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/MechInnerArm_NM.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="SurgeonArmNM" />
+					<attribute id="Template" type="FixedString" value="MechInnerArm_NM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -1245,11 +1100,11 @@
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
 					<attribute id="ID" type="FixedString" value="d3c33144-db79-4235-b3f9-3af6a4e864b0" />
-					<attribute id="Name" type="LSString" value="SurgeonArmPM" />
+					<attribute id="Name" type="LSString" value="MechInnerArm_PM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/SurgeonArmPM.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/MechInnerArm_PM.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="SurgeonArmPM" />
+					<attribute id="Template" type="FixedString" value="MechInnerArm_PM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -1289,45 +1144,6 @@
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/LegMechPart_PM.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="LegMechPart_PM" />
-					<attribute id="Type" type="int32" value="1" />
-					<attribute id="Width" type="int32" value="2048" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
-				</node>
-				<node id="Resource">
-					<attribute id="Depth" type="int32" value="1" />
-					<attribute id="Height" type="int32" value="2048" />
-					<attribute id="ID" type="FixedString" value="f5c7b71d-d542-4512-b6ec-0cfeae3249e5" />
-					<attribute id="Name" type="LSString" value="LegFlesh_NM" />
-					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/LegFlesh_NM.DDS" />
-					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="LegFlesh_NM" />
-					<attribute id="Type" type="int32" value="1" />
-					<attribute id="Width" type="int32" value="2048" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
-				</node>
-				<node id="Resource">
-					<attribute id="Depth" type="int32" value="1" />
-					<attribute id="Height" type="int32" value="2048" />
-					<attribute id="ID" type="FixedString" value="660a1f0c-556c-4a5b-8962-b69312e52a6b" />
-					<attribute id="Name" type="LSString" value="LegFlesh_HMVY" />
-					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/LegFlesh_HMVY.DDS" />
-					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="LegFlesh_HMVY" />
-					<attribute id="Type" type="int32" value="1" />
-					<attribute id="Width" type="int32" value="2048" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
-				</node>
-				<node id="Resource">
-					<attribute id="Depth" type="int32" value="1" />
-					<attribute id="Height" type="int32" value="2048" />
-					<attribute id="ID" type="FixedString" value="012027e9-9bab-43be-b711-d2d180e1c38c" />
-					<attribute id="Name" type="LSString" value="LegFlesh_CLEA" />
-					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Demon/[PAK]_Demon_Body/CyberDemon_M_Body/LegFlesh_CLEA.DDS" />
-					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="LegFlesh_CLEA" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
@@ -1418,7 +1234,7 @@
 						<node id="Base" />
 						<node id="ClothProxyMapping" />
 						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" /> SurgeonTorsoFlesh
+							<attribute id="LOD" type="uint8" value="0" /> TorsoFlesh
 							<attribute id="MaterialID" type="FixedString" value="096d5756-9d57-422d-ae1f-1c00560dc12e" />
 							<attribute id="ObjectID" type="FixedString" value="DK_M_Body.1_TorsoFlesh.0" />
 						</node>
@@ -1428,9 +1244,9 @@
 							<attribute id="ObjectID" type="FixedString" value="DK_M_Body.2_TorsoPlates.1" />
 						</node>
 						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" /> Arms
-							<attribute id="MaterialID" type="FixedString" value="2f57ef08-4afb-4e6d-8105-c35787848f27" />
-							<attribute id="ObjectID" type="FixedString" value="DK_M_Body.5_Arms.2" />
+							<attribute id="LOD" type="uint8" value="0" /> KarlachMetal
+							<attribute id="MaterialID" type="FixedString" value="00caa442-cea1-d836-2ccf-828a69c68abf" />
+							<attribute id="ObjectID" type="FixedString" value="DK_M_Body.MetalGlowingParts.2" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" /> LegsPlates
@@ -1438,14 +1254,19 @@
 							<attribute id="ObjectID" type="FixedString" value="DK_M_Body.4_LegPlates.3" />
 						</node>
 						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" /> Tubes
-							<attribute id="MaterialID" type="FixedString" value="502f4030-1418-4b98-93d1-fbf2c2ec1a3c" />
-							<attribute id="ObjectID" type="FixedString" value="DK_M_Body.7_Hoses.4" />
+							<attribute id="LOD" type="uint8" value="0" /> Arms
+							<attribute id="MaterialID" type="FixedString" value="2f57ef08-4afb-4e6d-8105-c35787848f27" />
+							<attribute id="ObjectID" type="FixedString" value="DK_M_Body.5_Arms.4" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" /> MechParts
 							<attribute id="MaterialID" type="FixedString" value="cf4de9b3-b988-41cd-bf3c-5bb416aa2c8b" />
 							<attribute id="ObjectID" type="FixedString" value="DK_M_Body.6_ArmPlates.5" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" /> Tubes
+							<attribute id="MaterialID" type="FixedString" value="502f4030-1418-4b98-93d1-fbf2c2ec1a3c" />
+							<attribute id="ObjectID" type="FixedString" value="DK_M_Body.7_Hoses.6" />
 						</node>
 					</children>
 				</node>
