@@ -2284,7 +2284,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="9e2966c7-b61c-4bc1-bef1-a79cb5fde067" />
+							<attribute id="MaterialID" type="FixedString" value="6f4120cb-37ef-4f11-9fa0-076568be4191" />
 							<attribute id="ObjectID" type="FixedString" value="DK_M_Head_B.7_AUTO_MS_NKD_Head_D_Brain.6" />
 						</node>
 						<node id="Objects">
